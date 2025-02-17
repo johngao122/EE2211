@@ -23,10 +23,3 @@ def A1_A0277563R(X, y):
 
     # return in this order
     return InvXTX, w
-
-
-X = np.array([[2, 4], [-4, 3], [5, -7], [6, 3], [0, -8]])
-y = np.array([[5], [-3], [4], [9], [2]])
-
-XTX_inv, w = A1_A0277563R(X, y)
-print(XTX_inv, w)
